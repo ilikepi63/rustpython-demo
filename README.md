@@ -6,14 +6,14 @@ As Rustpython doesn't seem to be on cargo - you will need to download it to a re
 
 You can see this in the cargo dependencies: 
 
-'''
+```
 [dependencies]
 rustpython = { path = "../RustPython"}
 rustpython-vm = { path = "../RustPython/vm" }
-'''
+```
 
 After that, just:
 
-'''
+```
 cargo run
-'''
+```
